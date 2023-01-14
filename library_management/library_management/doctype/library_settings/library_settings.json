@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "creation": "2023-01-13 16:24:06.090412",
+ "default_view": "List",
+ "doctype": "DocType",
+ "document_type": "System",
+ "engine": "InnoDB",
+ "field_order": [
+  "loan_period",
+  "max_articles"
+ ],
+ "fields": [
+  {
+   "default": "30",
+   "description": "In days",
+   "fieldname": "loan_period",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Loan Period"
+  },
+  {
+   "fieldname": "max_articles",
+   "fieldtype": "Int",
+   "label": "Maximum Number of Issued Articles"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-01-13 16:53:09.927737",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "read": 1,
+   "role": "Librarian",
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
